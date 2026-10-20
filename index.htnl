@@ -3,14 +3,37 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mi primera app como desarrollador ADSO</title>
+    <title>Mi tarjeta de presentación</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <h1>Hola, soy juan de jesus garcia castaño, tengo 23 años y quiero hacer mi consola</h1>
-    <p>Este es mi primer proyecto en GitHub.</p>
-    <button id="boton">Haz clic aquí</button>
-    <p id="mensaje"></p>
+     <div class="tarjeta">
+        <div class="avatar">👨‍💻</div>
+
+        <h1>¡Hola, soy juan de jesus garcia </h1>
+
+        <h2>Aprendiz del SENA</h2>
+        
+        <p>
+            Soy una persona responsable, creativa y con muchas ganas
+            de aprender. Me interesa la tecnología y el desarrollo
+            de páginas web. Mi objetivo es adquirir nuevos
+            conocimientos y mejorar mis habilidades cada día.
+        </p>
+
+        <h3>Mis habilidades e intereses</h3>
+
+        <ul>
+            <li>💻 Programación y tecnología</li>
+            <li>🎨 Diseño de páginas web</li>
+            <li>🚀 Aprender cosas nuevas</li>
+        </ul>
+
+        <button onclick="saludar()">Haz clic aquí</button>
+
+        <p id="mensaje"></p>
+    </div>
+
     <script src="script.js"></script>
 </body>
 </html>
